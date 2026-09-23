@@ -31,15 +31,34 @@ public class Entrada {
 
 
         // variables:
-            // segun el dato que guarda: String, char(letra), byte/shot/int/long (numero), double/float (decimales), boolena(true or false)
+            // segun el dato que guarda: String, char(letra), byte/shot/int/long (numero, va de menos a mas), double/float (decimales), boolena(true or false)
+            // segun la forma de construirse: primitivos (solo guarda el valor) / complejos (ademas del valor por ejemplo Leyre, se guarda una funcionalidad)
+                // lo que esta en minuscula y coloreado es primitvo
+            // segun la mutabilidad del dato: mutables (aquella variables que pueden cambiar su valor) / no mutables (constante) siempre esta fijo, por ejemplo el dni
+                // las constantes siempre tienen todas sus letras en mayusculas
+            // segun el scope de la variable: metodo (bloque) / clase
         // tipo nombre = valor
+        final String DNI = "123A";
+            // para que no cambie ,final,
+
         String nombreLegal = "Leyre";
         nombreLegal = "Leyre C";
+
         char letra = 'a';
+        Character letraCompleja = 'a';
+
         int edad = 30;
+        edad = 31;
+        Integer numeroComplejo = 2;
+
         double altura = 1.65;
+         // float alturaFloat = 1.65f;
+        Double alturaComplejo = 1.65;
+
         //float alturaFloat = 1.65f;
         boolean acierto = true;
+        Boolean aciertoComplejo = true;
+
 
         // ordenes a ejecutar
 
