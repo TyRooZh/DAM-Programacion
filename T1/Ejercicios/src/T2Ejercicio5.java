@@ -9,8 +9,5 @@ public class T2Ejercicio5 {
         System.out.println("Numero de minutos es "+minutos);
         System.out.println("Numero de segundos es "+resto2);
 
-
-
-
     }
 }
