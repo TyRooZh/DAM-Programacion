@@ -9,3 +9,4 @@ public class Ejercicio1 {
     }
 
 }
+// Recuerda que solo un main por proyecto
