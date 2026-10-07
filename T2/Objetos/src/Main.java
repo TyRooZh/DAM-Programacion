@@ -24,28 +24,43 @@ public class Main {
         System.out.println("Iniciamos el juego de los objetos");
         //public es el acceso, si es publico to-do el mundo puede acceder
         //void es el retorno, en este caso no retorna nada
+
         String nombre = "Leyre"; //new String("Leyre");-> en este caso redundante, pero cualquiera compleja tiene que haber new
         int edad = 30;
         Jugador jugador1 = new Jugador("Maria",30,50,false);
-
-
-        Jugador jugador2 = new Jugador("Maria",5,100,true );
-        //  correo = null, nombre = null, vidas = 0, habilidad = 0 estrella = false
         System.out.println("Atributos Jugador 1");
         System.out.println(jugador1.nombre);
-        System.out.println(jugador1.numeroVidas);
+        System.out.println(jugador1.vidas);
         System.out.println(jugador1.estrella);
         System.out.println("");
+
+        Jugador jugador2 = new Jugador("Maria",5,100,true );
+        //  correo = null, nombre = Maria, vidas = 5, habilidad = 100 estrella = true
         System.out.println("Atributos Jugador 2");
         System.out.println(jugador2.nombre);
-        System.out.println(jugador2.numeroVidas);
+        System.out.println(jugador2.vidas);
         System.out.println(jugador2.estrella);
         System.out.println("");
-        System.out.println("Atributos Jugador 3");
 
         Jugador jugador3 = new Jugador("Pablo",20,50,false);
-
+        System.out.println("Atributos Jugador 3");
         System.out.println(jugador3.nombre);
+        System.out.println(jugador3.vidas);
+        System.out.println(jugador3.estrella);
+        System.out.println("");
+
+        Jugador jugador4 = new Jugador("Marcos","marcos@gmail.com");
+        System.out.println(jugador4.correo);
+        System.out.println("");
+
+        Jugador jugador5 = new Jugador();
+        System.out.println(jugador5.habilidad);
+
+
+        Jugador.saludar();
+
+
+
 
 
 
