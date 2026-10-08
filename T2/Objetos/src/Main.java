@@ -27,11 +27,12 @@ public class Main {
 
         String nombre = "Leyre"; //new String("Leyre");-> en este caso redundante, pero cualquiera compleja tiene que haber new
         int edad = 30;
-        Jugador jugador1 = new Jugador("Maria",30,50,false);
+        Jugador jugador1 = new Jugador();
         System.out.println("Atributos Jugador 1");
         System.out.println(jugador1.nombre);
         System.out.println(jugador1.vidas);
         System.out.println(jugador1.estrella);
+        System.out.println(jugador1.habilidad);
         System.out.println("");
 
         Jugador jugador2 = new Jugador("Maria",5,100,true );
@@ -50,14 +51,30 @@ public class Main {
         System.out.println("");
 
         Jugador jugador4 = new Jugador("Marcos","marcos@gmail.com");
+        System.out.println("Atributos Jugador 4");
         System.out.println(jugador4.correo);
         System.out.println("");
 
         Jugador jugador5 = new Jugador();
+        System.out.println("Atributos Jugador 5");
         System.out.println(jugador5.habilidad);
+        System.out.println("");
+
+        jugador2.saludar();
+        jugador2.recibirImpacto();
+        jugador2.recibirImpacto();
+        jugador2.recibirImpacto();
+        jugador2.recibirImpacto();
+        jugador2.recibirImpacto();
+        jugador2.recibirImpacto();
+        jugador2.recibirImpacto();
+        jugador2.recibirImpacto();
+        System.out.println("Despues de la guerra...");
+        jugador2.saludar();
 
 
-        Jugador.saludar();
+
+
 
 
 
