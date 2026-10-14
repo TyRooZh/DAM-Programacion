@@ -71,14 +71,8 @@ public class Main {
         jugador2.recibirImpacto();
         System.out.println("Despues de la guerra...");
         jugador2.saludar();
-
-
-
-
-
-
-
-
+        jugador2.saludar("Lanza este mensaje");
+        System.out.println("El nombre del jugador 2 es: "+jugador2.getNombre());
 
 
 
