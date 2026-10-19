@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class MainIF {
     public static void main(String[] args) {
         System.out.println("Programa para la explicacion de las sentencias");
         System.out.println("Sentencia if");
@@ -8,6 +8,7 @@ public class Main {
         System.out.println("Introduce el pin de la tarjeta");
         int pin = lector.nextInt();
         lector.close();
+        //usado para ejecutarse un bloque complejo dependiendo de una cocdicion booleana
         if (pin<0 || pin>9999) {
             System.out.println("El pin no tiene formato valido");
         }
@@ -22,6 +23,5 @@ public class Main {
             System.out.println("La cuenta queda bloqueada");
         }
 
-        System.out.println("Terminando la operativa del banco");
     }
 }
