@@ -33,6 +33,5 @@ public class EjemploSwitch {
             }
         }
         System.out.println(mensaje);
-
     }
 }
