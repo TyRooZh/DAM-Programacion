@@ -40,7 +40,7 @@ public class MainFor {
 
         Scanner lector = new Scanner(System.in);
         //System.out.println("Indica el numero para ver su tabla");
-        int numero = 10;
+       /* int numero = 10;
         int max = n1; int min = n2;
         if (n2>max) {
             max = n2;
@@ -58,5 +58,7 @@ public class MainFor {
                 }
             }
         }
+
+        */
     }
 }
