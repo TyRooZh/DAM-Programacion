@@ -1,0 +1,15 @@
+Estamentos de control -> gestionar que parte se ejecuta del codigo
+
+    seleccion -> if - if-else - if-else-if -> condicion boolean // switch (valor)
+    repeticion -> for (valor numerico) // while (no se ejecuta minimo 0 ejercicios) - dowhile (como minimo 1 vez)
+
+Excepctions -> gestionar los errores del codigo, en momento de ejecucion o antes
+
+    play -> compilacion -> ejecuta JVM
+
+Escribo codigo y le doy al play
+
+    0 - error en escritura. No se compila
+    1 - funciona correctamente. Se compila y se ejecuta
+    2 - no funciona correctamente en logica , se compila y se ejecuta
+    3 - funciona correctamente,

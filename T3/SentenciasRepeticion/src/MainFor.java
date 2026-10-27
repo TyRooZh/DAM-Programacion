@@ -40,12 +40,16 @@ public class MainFor {
 
         Scanner lector = new Scanner(System.in);
         //System.out.println("Indica el numero para ver su tabla");
-       /* int numero = 10;
+        int numero = 10;
+        int n1 =7; int n2 = 20;
         int max = n1; int min = n2;
         if (n2>max) {
             max = n2;
             min = n2;
-        } else ()
+        } else {
+            max = n1;
+            min = n2;
+        }
         if (numero < 0) {
             System.out.println("Numero negativo, no se puede");
         } else {
@@ -59,6 +63,6 @@ public class MainFor {
             }
         }
 
-        */
+
     }
 }
