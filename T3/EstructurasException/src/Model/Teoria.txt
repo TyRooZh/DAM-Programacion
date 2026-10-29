@@ -1,0 +1,5 @@
+Clase ->
+    el molde de un objeto.
+        - Atributos -> cualifica / otorga una caracteristica
+        - Constructores -> ejecutar los atributos que tiene un objeto
+        - Metodos
