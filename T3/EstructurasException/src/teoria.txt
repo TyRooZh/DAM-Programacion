@@ -9,7 +9,7 @@ Excepctions -> gestionar los errores del codigo, en momento de ejecucion o antes
 
 Escribo codigo y le doy al play
 
-    0 - error en escritura. No se compila
-    1 - funciona correctamente. Se compila y se ejecuta
+    0 - error en escritura. No se compila -> falta una ;, }...
+    1 - funciona correctamente. Se compila y se ejecuta -> to-do ok
     2 - no funciona correctamente en logica , se compila y se ejecuta
-    3 - funciona correctamente,
+    3 - funciona correctamente, PERO mientras ejecuta ha fallado. Se compila y se ejecuta --> EXCEPTIONS

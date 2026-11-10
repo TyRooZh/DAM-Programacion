@@ -30,7 +30,7 @@ public class Banco {
                 }
                 //sacaras dinero
                 cuenta.setSaldo(cuenta.getSaldo() - saldoRetirar);
-                System.out.println("Retirada válido");
+                System.out.println("Retirada  válido");
             } else {
                 throw new BancoException("Error validacion");
             }

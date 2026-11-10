@@ -1,0 +1,91 @@
+Ejercicio contraseña -> que tenga mayus, min, numero y que no sea password
+
+String pass = "asdasd123";
+boolean digito = false;
+for (int i=0; i<pass.lenght; i++) {
+    char letra = pass.charAt(i);
+    if (Character.isDigit(letra)) {
+        digito = true;
+        break;
+    }
+}
+if (pass.length <=8 && digito) {
+    sout(valida);
+}
+
+Exceptions -> tratamiento de errores
+try {
+    intenta ejecutar
+    este bloque de codigo
+} catch(TipoException e) {
+    despues de la linea del fallo
+    ejecuto esto
+}finally {
+    bloque que se ejecuta con fallo o sin el
+    es optativo
+}
+
+2.
+try(declara una variable autocerrable) {
+     intenta ejecutar
+     este bloque de codigo
+  } catch(TipoException e) {
+        despues de la linea del fallo
+        ejecuto esto
+  }finally {
+        bloque que se ejecuta con fallo o sin el
+        es optativo
+  }
+
+  ClaseA
+
+    metodo1() {
+        try {
+            tienes un bloque que puede dar fallo
+        } catch() {
+
+        }finally {
+
+        }
+
+    }
+
+    metodo2() thorws NullPointerException{
+        tienes un bloque que puede dar fallo
+    }
+
+    metodo3() thorws ClaseExceptionPropia {
+        tienes un bloque que puede dar fallo que yo marco
+        if pasa esto
+            throw new ClaseExcepctionPropia("Fallo de validacion")
+    }
+
+  Clase B
+    main() {
+        Scanner sc = new Scanner(System.in);
+        ClaseA a = new ClaseA();
+        a.metodos1()
+
+        try {
+            a.metodo2() --> el error no esta en el metodo en si, esta en el main, por ejemplo el scanner. Lo puedo lanzar, THROWS, DESE LA CLASE Y PILLARLO AHI
+            a.metodo3();
+        }catch(MailException e) {
+            la solucion es pedir otro correo
+        }catch(ClaseExceptionPropia e)
+            la excepcion que yo he creado propia
+
+        a.metodo3()
+    }
+
+
+
+ClaseExceptionPropia extends Exception{
+    public ClaseExceptionPropia(String message) {
+        super(message)
+    }
+}
+
+InputMissMatchException -> estas introduciendo un dato que no es valido, te pido un entero y metes un string
+NullPointerException
+ClassCastException --> cambio de tipo que no es valido
+IndexOutOfBoundException

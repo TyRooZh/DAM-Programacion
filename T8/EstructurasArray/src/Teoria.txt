@@ -1,0 +1,37 @@
+Variable
+    naturaleza
+        primitivo -> dato || int boolean
+        complejo -> dato y funcionalidad || String CuentaCorriente
+
+    tipo dato
+        int boolean double float String
+
+    ambito
+        bloque
+        clase
+
+
+Estructura de almacenamiento -> armario -> baldas
+
+    Estaticas --> ARRAY | ARRAYMULTIDIMENSIONAL
+
+        - Su tamaño no cambia nunca. El tamaño es FIJO
+        - Esta indexado, cada elemento/balda se asocia a una posicion. Siendo la primera la numero 0
+        - Depende del tipo de dato, se guarda un valor inicial u otro
+
+        Iniciar un array
+            solo una forma para iniciar
+                - String[] nombre = new String[] {"Borja", "Marcos","Marta", "Laura"};
+                - String[] nombre = new String[5];
+
+        Operaciones
+
+            - sacar el tamaño de la coleccion/array
+            - Introducir valores
+            - sacar el valor de una posicion
+
+
+
+            -ordenar, combinarlos
+
+    Dinamicas
