@@ -1,0 +1,4 @@
+matriz 4x4
+que se rellene aleatoriamente
+cuadrado magico, es cuando la suma de sus columnas es igual en todas las columnas, y tambien de ñas filas y las diagonales == MISMO NUMERO
+en caso que no sea magico tiene que crear una nueva matriz, hasta que genere un cuadrado magico

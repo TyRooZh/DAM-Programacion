@@ -50,6 +50,15 @@ public class Main {
                             System.out.println("El numero no se encuentra en el array");
                         }
                     }
+                    case 5 -> {
+                        // rotacion - izquierda
+                        operaciones.rotarIzq();
+                        // rotacion - derecha
+                        operaciones.rotarDcha();
+                    }
+                    case 6 -> {
+                        operaciones.invertir();
+                    }
                     case 7 -> operaciones.ordenar();
                     case 8 -> System.out.println("Saliendo del sistema...");
 
