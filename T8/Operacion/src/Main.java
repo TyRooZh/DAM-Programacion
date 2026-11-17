@@ -54,7 +54,7 @@ public class Main {
                         // rotacion - izquierda
                         operaciones.rotarIzq();
                         // rotacion - derecha
-                        operaciones.rotarDcha();
+                        // operaciones.rotarDcha();
                     }
                     case 6 -> {
                         operaciones.invertir();
