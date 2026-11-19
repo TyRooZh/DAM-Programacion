@@ -34,9 +34,12 @@ public class Main {
                         String nombre = sc.next();
                         System.out.println("Indica el dni");
                         String dni = sc.next();
-                        System.out.println("Indica tu nota");
-                        int nota = sc.nextInt();
-                        Alumno alumno = new Alumno();
+                        Alumno alumno = new Alumno(nombre,  dni);
+                        if (thpw.inscribirAlumnos(alumno)) {
+                            System.out.println("Agregado correctamente");
+                        } else {
+                            System.out.println("FAllo de inscripcion");
+                        }
                     }
                     case 2 ->  {
                         System.out.println("Indica el dni del alumno que quieres expulsar");
@@ -65,20 +68,22 @@ public class Main {
                             } catch (Exception e) {
                                 System.out.println(e.getMessage());
                                 fallo = true;
-
                             }
                         } while (fallo);
 
                     }
                     case 4 -> {
                         thpw.mostrarDatos();
+                        thpw.listarAlumnos();
                     }
                     case 5 -> {
                         System.out.println("Indica el Dni que quieres buscar");
                         String dni = sc.next();
                         Alumno encontrado = thpw.buscarAlumno(dni);
                         if (encontrado == null) {
-
+                            System.out.println("El dni no se encuentra en la lista");
+                        } else {
+                            encontrado.mostrarDatos();
                         }
                     }
                     case 6 -> {

@@ -57,7 +57,6 @@ public class Colegio {
                     return true;
                 }
             }
-
         }
         return false;
     }
@@ -129,13 +128,11 @@ public class Colegio {
     }
 
 
-    /*public void mostrarDatos () {
+    public void mostrarDatos () {
             System.out.println("nombre = " + nombre);
             System.out.println("Las plazas del colegio son " + listaAlumnos.length);
-            System.out.println((nota < 0 ? "Sin calificar" : nota));
     }
 
-     */
 
     public String getNombre () {
             return nombre;
